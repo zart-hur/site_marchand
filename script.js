@@ -9,30 +9,30 @@ let animalerie = [
                 name: "Chats",
                 ref: "chats",
                 liste: [
-                    { image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             },
             {
                 name: "Lions",
                 ref: "lions",
                 liste: [
-                    { image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             },
             {
-                name: "Chats",
-                ref: "chats",
+                name: "Panthères",
+                ref: "panthere",
                 liste: [
-                    { image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             }
         ]
@@ -45,41 +45,44 @@ let animalerie = [
                 name: "Chiens",
                 ref: "chiens",
                 liste: [
-                    { image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             },
             {
                 name: "Loups",
                 ref: "loups",
                 liste: [
-                    { image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             },
             {
                 name: "Renards",
                 ref: "renards",
                 liste: [
-                    { image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             }
         ]
     }
 ]
 
-
-function AddEspeceInFamille() {
+function AddRowInFamille() {
     var newSubMenu = document.createElement('ul');
     newSubMenu.classList.add('dropdown-menu');
 
+    return newSubMenu
+}
+
+function AddEspeceInRow(espece) {
     var newSubMenuList = document.createElement('li');
     newSubMenuList.classList.add('dropright-submenu');
 
@@ -93,44 +96,31 @@ function AddEspeceInFamille() {
 
     var SubMenuName = document.createElement('span');
     SubMenuName.classList.add('nav-label');
-    ////////////////////////cherher le nom
-    SubMenuName.id = "espece1"
-    ////////////////////////
+    SubMenuName.id = espece.ref
     SubMenuName.setAttribute("data-espece", "espece")
-    SubMenuName.innerHTML = "espece"
+    SubMenuName.innerHTML = espece.name
 
     var newSubSubMenu = document.createElement('ul');
     newSubSubMenu.classList.add('dropdown-menu');
 
-    //////////////////////////////dans boucle for
-    var newBaby = document.createElement('li');
-    var newBabyLink = document.createElement('a');
-    newBabyLink.href = "#"
-    newBabyLink.innerHTML = "testFinal1"
+    espece.liste.forEach(produit => {
 
-    var newBaby2 = document.createElement('li');
-    var newBabyLink2 = document.createElement('a');
-    newBabyLink2.href = "#"
-    newBabyLink2.innerHTML = "testFinal2"
-    ////////////////////////
-
-    newBaby2.appendChild(newBabyLink2)
-    newSubSubMenu.appendChild(newBaby2)
-    newBaby.appendChild(newBabyLink)
-    newSubSubMenu.appendChild(newBaby)
-
+        var newBaby = document.createElement('li');
+        var newBabyLink = document.createElement('a');
+        newBabyLink.href = "#"
+        newBabyLink.innerHTML = produit.nom
+        newBabyLink.id = produit.ref
+        newBaby.appendChild(newBabyLink)
+        newSubSubMenu.appendChild(newBaby)
+    });
 
     newSubMenuButton.appendChild(SubMenuName)
     newSubMenuList.appendChild(newSubMenuButton)
     newSubMenuList.appendChild(newSubSubMenu)
-    newSubMenu.appendChild(newSubMenuList)
-
-    return newSubMenu;
-
+    return newSubMenuList;
 }
 
-function AddFamilleInCol() {
-
+function AddFamilleInCol(familyName, familyRef) {
     var newDropdownMenu = document.createElement('ul');
     newDropdownMenu.classList.add('dropdown');
 
@@ -144,11 +134,9 @@ function AddFamilleInCol() {
 
     var nomFamille = document.createElement('span');
     nomFamille.classList.add('nav-label')
-    ////////////////////////cherher le nom
-    nomFamille.id = "famille1"
-    ////////////////////////
+    nomFamille.id = familyName
     nomFamille.setAttribute("data-famille", "famille")
-    nomFamille.innerHTML = "Famille"
+    nomFamille.innerHTML = familyRef
 
     famille.appendChild(nomFamille)
     newDropdownMenu.appendChild(famille)
@@ -167,19 +155,36 @@ function AddColMenu() {
 
 document.addEventListener("DOMContentLoaded", () => {
     var menu = document.querySelector('#menu')
-    var col = AddColMenu();
 
-    animalerie.forEach(element => {
-
-        console.log(element.name)
-
+    animalerie.forEach(familleX => {
+        let col = AddColMenu();//cree une colone
+        menu.appendChild(col); //met la colone dans le menu
+        let famille = AddFamilleInCol(familleX.name, familleX.ref);//met la famille dans la colonne
+        let row = AddRowInFamille()//cree une ligne 
+        familleX.especes.forEach(especeX => {
+            let espece = AddEspeceInRow(especeX);// cree une espece (et les Babies)
+            row.appendChild(espece);
+            famille.appendChild(row)
+        });
+        col.appendChild(famille);
     });
-    var famille = AddFamilleInCol();
-    var espece = AddEspeceInFamille();
+
+    //var test1 = [ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 50040]
+
+    //displayInfos(test1)
 
 
-    famille.appendChild(espece);
-    col.appendChild(famille);
-    menu.appendChild(col);
 
 });
+
+
+function displayInfos(test) {
+    console.log(test.image)
+    document.querySelector("#image").innerHTML = test.image
+    document.querySelector("#nom").innerHTML = test.nom
+    document.querySelector("#age").innerHTML = test.age
+    document.querySelector("#description").innerHTML = test.description
+    document.querySelector("#prix").innerHTML = test.prix
+
+
+}
