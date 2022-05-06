@@ -1,5 +1,18 @@
 
 
+//insuffisant !!!!! car il faut directement lire et ecrire sans passer par le fichier.json
+var jsonFilePath = "./panier.json"; //début
+var jsontext = fetch(jsonFilePath)// json file --> jsontext
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (data) {
+        localStorage.setItem("panier", JSON.stringify(data))
+    })
+
+
+
+
 let animalerie = [
     {
         name: "Felins",
@@ -110,7 +123,7 @@ function AddEspeceInRow(espece) {
         newBabyLink.href = "#"
         newBabyLink.innerHTML = produit.nom
         newBabyLink.id = produit.ref
-        newBabyLink.addEventListener("click", displayInfos)
+        newBabyLink.addEventListener("click", () => { displayInfos(produit.ref) })
         newBaby.appendChild(newBabyLink)
         newSubSubMenu.appendChild(newBaby)
     });
@@ -154,14 +167,13 @@ function AddColMenu() {
     return newColMenu
 }
 
-
-
-function displayInfos() {
-
+function displayInfos(id) {
+    document.querySelector("#accueil").style = "display : none;"
+    document.querySelector("#produit").style = "display : block;"
     animalerie.forEach(famille => {
         famille.especes.forEach(espece => {
             espece.liste.forEach(baby => {
-                if (baby.ref == this.id) {
+                if (baby.ref == id) {
                     document.querySelector("#image").src = baby.image
                     document.querySelector("#nom").innerHTML = baby.nom
                     document.querySelector("#age").innerHTML = baby.age
@@ -175,6 +187,10 @@ function displayInfos() {
 
 }
 
+function ajout() {
+    let prix = document.querySelector("#prix").innerHTML;
+    alert(prix)
+}
 document.addEventListener("DOMContentLoaded", () => {
     var menu = document.querySelector('#menu')
 

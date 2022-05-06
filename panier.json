@@ -1,0 +1,12 @@
+{
+    "panier": {
+        "total": "0",
+        "nbArticles": "0",
+        "listeArticles": [
+            "article1",
+            "article2",
+            "article3",
+            "article4"
+        ]
+    }
+}
