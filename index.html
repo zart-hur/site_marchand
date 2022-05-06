@@ -49,7 +49,12 @@
 
     }
 
-    #espece {
+    [data-espece="espece"] {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    [data-famille="famille"] {
         font-size: large;
         font-weight: bold;
     }
@@ -79,19 +84,18 @@
                 <div name="shearch" class="row" style="height: 25%;">
                     <div id="menu" class="d-flex ">
 
-
-
                         <div class="col d-flex nav navbar-nav">
 
-                            <li class="dropdown">
+                            <ul class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                    aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Felins</span>
-                                    <span class="caret"></span></a>
+                                    aria-haspopup="true" aria-expanded="true"> <span class="nav-label"
+                                        data-famille="famille" id="felin">Felins</span>
+                                </a>
                                 <ul class="dropdown-menu">
                                     <li class="dropright-submenu">
                                         <a href="#" class="dropright-toggle" data-toggle="dropdown" role="button"
                                             aria-haspopup="true" aria-expanded="false"> <span class="nav-label"
-                                                id="espece">Chatons</span><span class="caret"></span></a>
+                                                data-espece="espece" id="chatons">Chatons</span></a>
                                         <ul class="dropdown-menu">
                                             <li><a href="#">Chaton1</a></li>
                                             <li><a href="#">Chaton2</a></li>
@@ -101,7 +105,8 @@
                                     <li class="dropright-submenu">
                                         <a href="#" class="dropright-toggle" data-toggle="dropdown" role="button"
                                             aria-haspopup="true" aria-expanded="false"> <span class="nav-label"
-                                                id="espece">Lionceaux</span><span class="caret"></span></a>
+                                                data-espece="espece" id="lionceau">Lionceaux</span><span
+                                                class="caret"></span></a>
                                         <ul class="dropdown-menu">
                                             <li><a href="#">Lionceau1</a></li>
                                             <li><a href="#">Lionceau2</a></li>
@@ -110,7 +115,7 @@
                                     </li>
 
                                 </ul>
-                            </li>
+                            </ul>
                         </div>
 
                         <div class="col ">Mon Panier</div>
