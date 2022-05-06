@@ -9,30 +9,30 @@ let animalerie = [
                 name: "Chats",
                 ref: "chats",
                 liste: [
-                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: "chat0", image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fanimalaxy.fr%2Fwp-content%2Fuploads%2F2017%2F08%2Fkitten-227011_960_720.jpg&f=1&nofb=1", nom: "fnectest", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: "chat1", image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: "chat2", image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: "chat3", image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             },
             {
                 name: "Lions",
                 ref: "lions",
                 liste: [
-                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: "lion0", image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: "lion1", image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: "lion2", image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: "lion3", image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             },
             {
                 name: "Panthères",
-                ref: "panthere",
+                ref: "pantheres",
                 liste: [
-                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: "panthere0", image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: "panthere1", image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: "panthere2", image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: "panthere3", image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             }
         ]
@@ -45,30 +45,30 @@ let animalerie = [
                 name: "Chiens",
                 ref: "chiens",
                 liste: [
-                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: "chien0", image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: "chien1", image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: "chien2", image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: "chien3", image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             },
             {
                 name: "Loups",
                 ref: "loups",
                 liste: [
-                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: "loup0", image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: "loup1", image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: "loup2", image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: "loup3", image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             },
             {
                 name: "Renards",
                 ref: "renards",
                 liste: [
-                    { ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
-                    { ref: 1, image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
-                    { ref: 2, image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
-                    { ref: 3, image: "trucC", nom: "fnoc", age: "2", description: "blabl,,habla", prix: 5001 }
+                    { ref: "renard0", image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 5040 },
+                    { ref: "renard1", image: "trucA", nom: "fnac", age: "1", description: "blagblasbla", prix: 3500 },
+                    { ref: "renard2", image: "trucB", nom: "fnuc", age: "3", description: "blabtrhlabla", prix: 5020 },
+                    { ref: "renard3", image: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fp0.storage.canalblog.com%2F05%2F85%2F123517%2F54190510.jpg&f=1&nofb=1", nom: "fnotestc", age: "2", description: "blabl,,habla", prix: 5001 }
                 ]
             }
         ]
@@ -110,6 +110,7 @@ function AddEspeceInRow(espece) {
         newBabyLink.href = "#"
         newBabyLink.innerHTML = produit.nom
         newBabyLink.id = produit.ref
+        newBabyLink.addEventListener("click", displayInfos)
         newBaby.appendChild(newBabyLink)
         newSubSubMenu.appendChild(newBaby)
     });
@@ -153,6 +154,27 @@ function AddColMenu() {
     return newColMenu
 }
 
+
+
+function displayInfos() {
+
+    animalerie.forEach(famille => {
+        famille.especes.forEach(espece => {
+            espece.liste.forEach(baby => {
+                if (baby.ref == this.id) {
+                    document.querySelector("#image").src = baby.image
+                    document.querySelector("#nom").innerHTML = baby.nom
+                    document.querySelector("#age").innerHTML = baby.age
+                    document.querySelector("#description").innerHTML = baby.description
+                    document.querySelector("#prix").innerHTML = baby.prix
+                }
+            });
+        });
+    });
+
+
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     var menu = document.querySelector('#menu')
 
@@ -169,22 +191,5 @@ document.addEventListener("DOMContentLoaded", () => {
         col.appendChild(famille);
     });
 
-    //var test1 = [ref: 0, image: "truc", nom: "fnec", age: "2", description: "blablablsda", prix: 50040]
-
-    //displayInfos(test1)
-
-
-
 });
 
-
-function displayInfos(test) {
-    console.log(test.image)
-    document.querySelector("#image").innerHTML = test.image
-    document.querySelector("#nom").innerHTML = test.nom
-    document.querySelector("#age").innerHTML = test.age
-    document.querySelector("#description").innerHTML = test.description
-    document.querySelector("#prix").innerHTML = test.prix
-
-
-}
