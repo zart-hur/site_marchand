@@ -1,15 +1,26 @@
 
 
-//insuffisant !!!!! car il faut directement lire et ecrire sans passer par le fichier.json
-var jsonFilePath = "./panier.json"; //début
-var jsontext = fetch(jsonFilePath)// json file --> jsontext
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (data) {
-        localStorage.setItem("panier", JSON.stringify(data))
-    })
+//localStorage.clear();
 
+
+let panier = {
+
+    prixTotal: 0,
+    nbArticles: "0",
+    listeArticles: [
+        "test1"
+    ]
+
+}
+
+//check si le panier existait deja
+let isPanier;
+let panierStorage = JSON.parse(localStorage.getItem('panier'))
+
+if (panierStorage == null) {
+    isPanier = false
+    localStorage.setItem('panier', JSON.stringify(panier));
+} else { isPanier = true }
 
 
 
@@ -188,8 +199,44 @@ function displayInfos(id) {
 }
 
 function ajout() {
-    let prix = document.querySelector("#prix").innerHTML;
-    alert(prix)
+    //nom
+    let nom = document.querySelector("#nom").innerHTML;
+    //prix
+    let prix = parseInt(document.querySelector("#prix").innerHTML);
+    //nombre d'articles
+    //document.querySelector("#nombre").innerHTML; //ajouter le choix du nombre de produits
+
+    //console.log(nom)
+    //console.log(prix)
+    console.log(isPanier)
+
+    if (!isPanier) {
+        //ajoute au tableau articles :
+
+        panier.listeArticles.push(nom)
+        //incremente le prix total
+        panier.prixTotal += prix;
+        //incremente (de 1 pour l'instant) le nombre d'articles
+        panier.nbArticles++
+
+        //met a jour le local storage :
+        localStorage.clear();
+        localStorage.setItem('panier', JSON.stringify(panier));
+    } else {
+        //ajoute au tableau articles :
+
+        //nom nouvel article
+        panierStorage.listeArticles.push(nom)
+        //incremente le prix total
+        panierStorage.prixTotal += prix;
+        //incremente (de 1 pour l'instant) le nombre d'articles
+        panierStorage.nbArticles++
+
+        //met a jour le local storage :
+        localStorage.clear();
+        localStorage.setItem('panier', JSON.stringify(panierStorage));
+    }
+
 }
 document.addEventListener("DOMContentLoaded", () => {
     var menu = document.querySelector('#menu')
